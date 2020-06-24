@@ -23,9 +23,13 @@ def get_email(elem):
 
 
 male.sort(key=get_age)
-print(male, end='\n\n')
+for item in male:
+    print(item, end='\n\n')
+# print(male, end='\n\n')
 
 
 female.sort(key=get_email,reverse=True)
-print(female, end='\n\n')
+for item in female:
+    print(item, end='\n\n')
+# print(female, end='\n\n')
 
